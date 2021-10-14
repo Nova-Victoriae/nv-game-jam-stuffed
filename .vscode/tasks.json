@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Debug",
+            "type": "shell",
+            "command": "g++ -c src/*.cpp -std=c++14 -m64 -g -Wall -I include && g++ *.o -o build/debug/main -lsfml-graphics -lsfml-window -lsfml-system -ljsoncpp && ./build/debug/main"
+        },
+        {
+            "label": "Build Release",
+            "type": "shell",
+            "command": "g++ -c src/*.cpp -std=c++14 -m64 -O3 -g -Wall -I include && g++ *.o -o build/release/main -s -lsfml-graphics -lsfml-window -lsfml-system -ljsoncpp && ./build/release/main"
+        }
+    ]
+}

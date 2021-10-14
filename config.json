@@ -1,0 +1,8 @@
+{
+    "screen_width": 600,
+    "screen_height": 480,
+    "scale_factor": 4,
+    "fullscreen" : 0,
+    "vSync": 1,
+    "antialiasing": 8
+}

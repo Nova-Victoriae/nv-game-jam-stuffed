@@ -17,3 +17,6 @@ This game is made for the *Nova Victoriae* Studio internal game jam 1. **Theme:*
 - [ ] Player Controller
 - [ ] Level Selection / Unlocking
 - [ ] Menus
+- [ ] Pushable Objects
+- [ ] Moveable Platforms
+- [ ] Key Door Unlock
